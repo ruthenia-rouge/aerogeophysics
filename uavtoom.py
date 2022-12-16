@@ -1,7 +1,7 @@
 import math as math
 import PySimpleGUI as sg
 
-sg.theme('LightBlue3')
+sg.theme('LightGreen1')
 
 ptt = [
     [sg.Radio('.pos в .tbl (гондола)','OPTYPE',default=False,key = 'radio1'),sg.Radio('Добавить заголовок GPS (коптер)','OPTYPE',default=False, key = 'radio2'),
